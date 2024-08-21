@@ -1,0 +1,129 @@
+body{
+    color: #000000;
+    margin: 20px 80px;
+    background-color: #ffffff;
+    font-family: "Montserrat";
+}
+
+span{
+    color: #F48E28;
+}
+
+a, a:hover{
+    color: #F48E28;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*----------------------------------------- header -----------------------------------------*/
+
+
+header.scrolled {
+    background-color: #000000;
+    transition: background-color 0.5s ease;
+}
+
+header.scrolled * {
+    color: #ffffff !important;
+}
+
+header.scrolled span{
+    color: #F48E28 !important;
+}
+
+header.scrolled .nav-search-cart {
+    border: 1px solid #ffffff;
+}
+
+header.scrolled .nav-search-cart .search input {
+    border-right: 1px solid #ffffff;
+}
+
+header.scrolled .nav-search-cart .search input::placeholder {
+    color: #ffffff;
+}
+
+nav .search svg path {
+    stroke: #000000;
+}
+
+header.scrolled nav .search svg path {
+    stroke: #ffffff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 20px 120px;
+    justify-content: space-between;
+}
+
+.nav-button ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-button button{
+    border: none;
+    color: #000000;
+    padding: 12px 16px;
+    background: transparent;
+    outline: none;
+    font-weight: 500;
+}
+
+.nav-button button:hover{
+    color: #F48E28;
+    border: none;
+}
+
+.nav-logo h1{
+    color: #000000;
+    font-style: italic;
+    font-family: "Rock salt";
+    font-size: 18px;
+}
+
+.nav-search-cart{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 15px;
+    box-shadow: 0px 0px 17px 0px #00000026;
+}
+
+.nav-search-cart button{
+    border: none;
+    color: #000000;
+    padding: 12px 0px 12px 10px;
+    background: transparent;
+    outline: none;
+    font-weight: 500;
+}
+
+.nav-search-cart .search{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search-cart .search svg{
+    margin-right: 10px;
+}
+
+.nav-search-cart .search input{
+    width: 140px;
+    border: none;
+    font-size: 18px;
+    color: #000000;
+    background: transparent;
+    outline: none;
+    border-right: 1px solid #000000;
+}
+
+.nav-search-cart .search input::placeholder{
+    color: #000000;
+}

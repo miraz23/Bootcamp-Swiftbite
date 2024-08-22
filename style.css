@@ -318,3 +318,120 @@ nav{
 }
 
 
+/*----------------------------------------- services -----------------------------------------*/
+
+#services{
+    margin: 100px 0px;
+}
+
+.service-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.service-title h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.service-title p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#services .service-row{
+    gap: 45px;
+}
+
+.service-row > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services{
+    width: 320px;
+    height: 340px;
+    border: 1px solid #B6B6B6;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.services:hover{
+    border: none;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.services h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.services p{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.service-icon{
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    background: #F5DDC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+
+/*----------------------------------------- subscribe -----------------------------------------*/
+
+
+.subscribe{
+    background: #000000;
+    border-radius: 30px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+}
+
+.subscribe-image{
+    width: 600px;
+}
+
+.subscribe-info{
+    align-items: center;
+}
+
+.subscribe-info h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#subscribe-message{
+    margin: 0;
+    display: none;
+}
+
+.subscribe-info input{
+    width: 99%;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.subscribe-info button{
+    padding: 7px 10px;
+    outline: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    background-color: #F48E28;
+    margin-left: -110px;
+}

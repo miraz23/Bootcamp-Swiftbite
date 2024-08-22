@@ -11,12 +11,12 @@
 </head>
 <body>
     <header class="fixed-top">
-        <nav>
-            <div class="nav-logo">
+        <nav class="d-flex">
+            <div class="nav-logo col-lg-5">
                 <a href="#home"><h1>Swift <span>Bite</span></h1></a>
             </div>
 
-            <div class="nav-button">
+            <div class="nav-button col-lg-4">
                 <ul class="d-flex">
                     <li><a href="#home"><button>Home</button></a></li>
                     <li><a href="#cart"><button>Cart</button></a></li>
@@ -47,6 +47,113 @@
             </div>
         </nav>
     </header>
+
+    <section id="banner">
+        <div class="banner d-flex justify-content-between">
+            <div class="banner-info">
+                <div class="banner-delivery">
+                    <h5>Bike Delivery</h5>
+                    <div class="banner-delivery-icon">
+                        <img src="./delivery.png" alt="" width="35px" height="30px">
+                    </div>
+                </div>
+                <div class="banner-title">
+                    <h1>The <span>Fastest</span><br> Delivery<br> In <span>Your City</span></h1>
+                    <p>Enjoy your favorite meals without the wait. Our super-fast<br> delivery brings deliciousness to your door in no time.</p>
+                </div>
+                <div class="banner-button d-flex align-items-center">
+                    <a href=""><button>Order Now</button></a>
+                    <a href="">
+                        <svg width="90" height="90" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d_3_332)"><circle cx="69" cy="69" r="44" fill="white"/></g><path d="M93 68.5L56.25 89.7176L56.25 47.2824L93 68.5Z" fill="#F48E28"/><defs><filter id="filter0_d_3_332" x="0" y="0" width="138" height="138" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset/><feGaussianBlur stdDeviation="12.5"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0.5125 0 0 0 0 0.649 0 0 0 0 1 0 0 0 0.25 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_332"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_332" result="shape"/></filter></defs></svg>
+                        Order Process
+                    </a>
+                </div>
+
+                <div class="banner-design">
+                    <svg width="250" height="150" viewBox="0 0 383 239" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 236.819C54.1672 228.933 163.401 197.592 175.002 135.318C189.502 57.475 37.5 45.0002 61.29 153.634C72.6749 205.621 198 204.5 220.5 173.5C256.5 123.899 255.5 58.9999 336 64.9999" stroke="#E4E4E4" stroke-width="3" stroke-dasharray="12 12"/>
+                        <path d="M355.743 47.1766C361.692 48.7705 363.684 56.2062 359.33 60.5608L314.561 105.33C310.206 109.684 302.771 107.692 301.177 101.743L284.79 40.588C283.196 34.6394 288.639 29.1961 294.588 30.79L355.743 47.1766Z" fill="#E4E4E4"/>
+                    </svg>
+                </div>
+                    
+            </div>
+            <div class="banner-food">
+                <div class="row d-flex">
+                    <div class="banner-food-info food-1">
+                        <img src="./food-1.png" alt="" width="170px" height="170px">
+                        <div class="banner-food-text">
+                            <h2>Burger</h1>
+                            <h3>Mushroom Sause</h3>
+                            <h4><span>$ </span>5.15</h4>
+                        </div>
+                    </div>
+                    <div class="banner-food-info food-2">
+                        <img src="./food-2.png" alt="" width="150px" height="130px">
+                        <div class="banner-food-text">
+                            <h2>Food Combo</h1>
+                            <h3>Mushroom Sause</h3>
+                            <h4><span>$ </span>9.15</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex">
+                    <div class="banner-food-info food-3">
+                        <img src="./food-3.png" alt="" width="150px" height="110px">
+                        <div class="banner-food-text">
+                            <h2>Pizza</h1>
+                            <h3>Mushroom Sause</h3>
+                            <h4><span>$ </span>6.15</h4>
+                        </div>
+                    </div>
+                    <div class="banner-food-info food-4">
+                        <img src="./food-4.png" alt="" width="170px" height="135px">
+                        <div class="banner-food-text">
+                            <h2>Cake</h1>
+                            <h3>Chocolate Sause</h3>
+                            <h4><span>$ </span>5.15</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <div class="time col-lg-4">
+                <div class="about-icon">
+                    <svg width="30" height="30" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 21C16.5228 21 21 16.5228 21 11C21 5.47715 16.5228 1 11 1C5.47715 1 1 5.47715 1 11C1 16.5228 5.47715 21 11 21Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11 5V11L15 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h1>Today 10:00am - 10:00pm</h1>
+                <p>Working time</p>
+            </div>
+            <div class="location col-lg-4">
+                <div class="about-icon">
+                    <svg width="30" height="30" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 10C19 17 10 23 10 23C10 23 1 17 1 10C1 7.61305 1.94821 5.32387 3.63604 3.63604C5.32387 1.94821 7.61305 1 10 1C12.3869 1 14.6761 1.94821 16.364 3.63604C18.0518 5.32387 19 7.61305 19 10Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10 13C11.6569 13 13 11.6569 13 10C13 8.34315 11.6569 7 10 7C8.34315 7 7 8.34315 7 10C7 11.6569 8.34315 13 10 13Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>    
+                </div>
+                <h1>Mohammadpur, Dhaka</h1>
+                <p>Our Location</p>
+            </div>
+            <div class="phone col-lg-4">
+                <div class="about-icon">
+                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.9381 5C14.9149 5.19057 15.8125 5.66826 16.5162 6.37194C17.2199 7.07561 17.6976 7.97326 17.8881 8.95L13.9381 5ZM13.9381 1C15.9674 1.22544 17.8597 2.13417 19.3044 3.57701C20.749 5.01984 21.6601 6.91101 21.8881 8.94L13.9381 1ZM20.8881 16.92V19.92C20.8892 20.1985 20.8322 20.4742 20.7206 20.7293C20.6091 20.9845 20.4454 21.2136 20.2402 21.4019C20.035 21.5901 19.7927 21.7335 19.5289 21.8227C19.265 21.9119 18.9855 21.9451 18.7081 21.92C15.631 21.5856 12.6751 20.5341 10.0781 18.85C7.66194 17.3147 5.61345 15.2662 4.07812 12.85C2.38809 10.2412 1.33636 7.27099 1.00812 4.18C0.983127 3.90347 1.01599 3.62476 1.10462 3.36162C1.19324 3.09849 1.33569 2.85669 1.52288 2.65162C1.71008 2.44655 1.93792 2.28271 2.19191 2.17052C2.44589 2.05833 2.72046 2.00026 2.99812 2H5.99812C6.48342 1.99522 6.95391 2.16708 7.32188 2.48353C7.68985 2.79999 7.93019 3.23945 7.99812 3.72C8.12474 4.68007 8.35957 5.62273 8.69812 6.53C8.83266 6.88792 8.86178 7.27691 8.78202 7.65088C8.70227 8.02485 8.51698 8.36811 8.24812 8.64L6.97812 9.91C8.40167 12.4135 10.4746 14.4864 12.9781 15.91L14.2481 14.64C14.52 14.3711 14.8633 14.1858 15.2372 14.1061C15.6112 14.0263 16.0002 14.0555 16.3581 14.19C17.2654 14.5286 18.2081 14.7634 19.1681 14.89C19.6539 14.9585 20.0975 15.2032 20.4146 15.5775C20.7318 15.9518 20.9003 16.4296 20.8881 16.92Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>    
+                </div>
+                <h1>+88 017 0000 0000</h1>
+                <p>Phone Number</p>    
+            </div>
+        </div>
+    </section>
+
+
+
     <script src="./script.js"></script>
 </body>
 </html>

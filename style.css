@@ -1,6 +1,6 @@
 body{
     color: #000000;
-    margin: 20px 80px;
+    margin: 20px 120px;
     background-color: #ffffff;
     font-family: "Montserrat";
 }
@@ -56,10 +56,8 @@ header.scrolled nav .search svg path {
 }
 
 nav{
-    display: flex;
     align-items: center;
-    margin: 20px 120px;
-    justify-content: space-between;
+    margin: 20px 100px;
 }
 
 .nav-button ul{
@@ -85,7 +83,8 @@ nav{
     color: #000000;
     font-style: italic;
     font-family: "Rock salt";
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 900;
 }
 
 .nav-search-cart{
@@ -115,7 +114,7 @@ nav{
 }
 
 .nav-search-cart .search input{
-    width: 140px;
+    width: 160px;
     border: none;
     font-size: 18px;
     color: #000000;
@@ -127,3 +126,195 @@ nav{
 .nav-search-cart .search input::placeholder{
     color: #000000;
 }
+
+
+/*----------------------------------------- banner -----------------------------------------*/
+
+
+#banner{
+    margin: 100px 0px;
+}
+
+.banner-delivery{
+    width: 180px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4px;
+    border-radius: 31.5px;
+    background: #F5DDC4;
+}
+
+.banner-delivery h5{
+    color: #F48E28;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.banner-delivery-icon{
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title h1{
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 65px;
+    padding: 50px 0px 20px 0px;
+    text-transform: uppercase;
+}
+
+.banner-title p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.banner-button{
+    gap: 20px
+}
+
+.banner-button button{
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+}
+
+.banner-button button:hover{
+    transform: translateY(-5px);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+}
+
+.banner-button a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner-button svg:hover{
+    transform: translateY(-5px);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+}
+
+.banner-design{
+    display: flex;
+    margin-top: -280px;
+    padding-left: 420px;
+    justify-content: center;
+}
+
+.banner-food .row{
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.banner-food-info{
+    width: 170px;
+    height: 180px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.banner-food-info:hover{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.banner-food-info h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner-food-info h3{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.banner-food-info h4{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.banner-food .food-1 img{
+    margin-top: -75px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+}
+
+.banner-food .food-2 img{
+    margin: -45px 0px 10px 0px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+}
+
+.banner-food .food-3 img{
+    margin: -35px 0px 20px 0px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+}
+
+.banner-food .food-4 img{
+    margin: -50px 0px 10px 0px;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.4));
+}
+
+
+/*----------------------------------------- about -----------------------------------------*/
+
+
+#about{
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px #0000000D;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.about > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.about .time, .about .location{
+    border-right: 1px solid #B6B6B6;
+}
+
+.about-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: #F48E28;
+    margin-bottom: 20px;
+}
+
+.about h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+

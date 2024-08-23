@@ -318,6 +318,114 @@ nav{
 }
 
 
+/*----------------------------------------- product -----------------------------------------*/
+
+
+#product{
+    margin: 100px 0px;
+}
+
+.product-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.product-title h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.product-title p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product{
+    width: 320px;
+    height: 320px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.product img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.product-name-cart h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-name-cart button{
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: #F48E28;
+}
+
+.product-rating-price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.product-rating-price svg{
+    margin-right: 5px;
+}
+
+.product-rating-price p{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.product-rating-price h2{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.product-button{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.product-button button{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background: #F48E28;
+}
+
+.product-button svg{
+    margin-left: 10px;
+}
+
 /*----------------------------------------- services -----------------------------------------*/
 
 #services{
